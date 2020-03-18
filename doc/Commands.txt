@@ -2,6 +2,7 @@
 
 minikube start
 minikube status
+minikube dashboard
 minikube docker-env
 docker ps
 
