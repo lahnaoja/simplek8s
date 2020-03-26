@@ -1,5 +1,13 @@
 
 
+
+minikube docker-env
+
+kubectl set image deployment/client-deployment client=lahnaoja/multi-client:v2
+
+
+----
+
 minikube start
 minikube status
 minikube dashboard
